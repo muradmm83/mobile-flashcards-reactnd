@@ -42,8 +42,6 @@ class AddCard extends Component {
         const { question, answer } = this.state;
         const { navigation } = this.props;
 
-        console.log(navigation);
-
         return (
             <View style={styles.container}>
                 <View style={styles.textContainer}>
